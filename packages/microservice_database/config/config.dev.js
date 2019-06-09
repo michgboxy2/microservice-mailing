@@ -1,4 +1,4 @@
-const  {PORT, mongoURI} = process.env;
+const  {PORT} = process.env;
 
 module.exports = {
     port : PORT || 4000,
